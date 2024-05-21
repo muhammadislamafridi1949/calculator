@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="color-div">
+        <div class="childcolor-div"> 
+            <span class="span1" onclick="dark('#e8f5e9')">light</span>
+            <span class="span2" onclick="darks('black')">dark</span>
+        </div>
+    </div>
+    <div id="main-div">
+        <table id="maintable">
+            <tr>
+                <td colspan="4"><input type="text" class="input" id="table" readonly></td>
+            </tr>
+            <tr>
+                <td class="btn btn1" onclick="AllcLear()" id="ac" colspan="2">AC</td>
+                <td class="btn btn2" onclick="dependOnclIck('%')" id="ac">%</td>
+                <td class="btn btn3" onclick="dependOnclIck('/')" id="divid">÷</td>
+            </tr>
+            <tr>
+                <td class="btn btn4" id="btns" onclick="dependOnclIck('7')">7</td>
+                <td class="btn btn5" id="btns" onclick="dependOnclIck('8')">8</td>
+                <td class="btn btn6" id="btns" onclick="dependOnclIck('9')">9</td>
+                <td class="btn btn7" id="btns" onclick="dependOnclIck('*')">x</td>
+            </tr>
+            <tr>
+                <td class="btn btn8" id="btns" onclick="dependOnclIck('4')">4</td>
+                <td class="btn btn9" id="btns" onclick="dependOnclIck('5')">5</td>
+                <td class="btn btn10" id="btns" onclick="dependOnclIck('6')">6</td>
+                <td class="btn btn11" id="btns" onclick="dependOnclIck('-')">-</td>
+            </tr>
+            <tr>
+                <td class="btn btn12" id="btns" onclick="dependOnclIck('1')">1</td>
+                <td class="btn btn13" id="btns" onclick="dependOnclIck('2')">2</td>
+                <td class="btn btn14" id="btns" onclick="dependOnclIck('3')">3</td>
+                <td class="btn btn15" id="btns" onclick="dependOnclIck('+')">+</td>
+            </tr>
+            <tr>
+                <td class="btn btn16" id="btns" onclick="dependOnclIck('.')">.</td>
+                <td class="btn btn17" id="btns" onclick="dependOnclIck('0')">0</td>
+                <td class="btn btn18" id="btns" onclick="deleteLastCharacter()">DEL</td>
+                <td class="btn btn19" id="btns" onclick="cacuLate('=')">=</td>
+            </tr>
+
+        </table>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

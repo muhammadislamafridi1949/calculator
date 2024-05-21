@@ -1,0 +1,109 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff9c4;
+
+}
+
+.color-div{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    /* background-color: aqua ; */
+    height: 20vh;
+    gap: 0.5vw;
+    border: 2px solid black;
+}
+
+.childcolor-div{
+    border: 2px solid black;
+    cursor: pointer;
+    height: 22px;
+    width: 66 px;
+}
+
+.span1{
+    height: 20%;
+    /* border: 2px solid black; */
+  cursor: pointer;
+    background-color: aqua;
+}
+
+.span2{
+    height: 20%;
+  cursor: pointer;
+    /* border: 2px solid black; */
+    background-color: aqua;
+}
+
+#main-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 10px;
+    height: 35%;
+    border: 3px solid black;
+    background-color: orange;
+    border-radius: 14px;
+}
+
+.input {
+    outline: none;
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-size: 35px;
+    /* background-color: aqua; */
+}
+
+.btn {
+    width: 70px;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+
+.btn3,
+.btn7,
+.btn11,
+.btn15,
+.btn19 {
+    background-color: rgb(15, 150, 222);
+    color: white;
+}
+
+.btn1,
+.btn2 {
+    background-color: rgba(86, 73, 73, 0.285);
+}
+
+.btn4,
+.btn5,
+.btn6,
+.btn8,
+.btn9,
+.btn10,
+.btn12,
+.btn13,
+.btn14,
+.btn16,
+.btn17,
+.btn18 {
+    background-color: rgb(215, 215, 215);
+
+}
+.btn:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
